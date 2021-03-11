@@ -1,0 +1,80 @@
+body{
+    background-image: url(./img/bgi.jpg);
+    background-size: cover;
+}
+
+@font-face{
+    font-family:"LeagueGothic1";
+    src: url(./LeagueGothic-1.601/static/TTF/LeagueGothic-Italic.ttf);
+}
+
+@font-face{
+    font-family: "LeagueGothic2";
+    src: url(./LeagueGothic-1.601/static/TTF/LeagueGothic-Regular.ttf);
+}
+
+h1{
+    font-family:"LeagueGothic1";
+    font-size: 80px;
+    color: #c33f3f;
+    letter-spacing: 3px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.moji{
+    font-family: "LeagueGothic2";
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+#fillout{
+    display: flex;
+    justify-content: space-around;
+}
+
+#title{
+    width: 155px;
+    font-size: 20px;
+}
+
+#element2{
+    margin-bottom: 20px;
+}
+
+#content{
+    font-size: 20px;
+}
+
+#send{
+    width: 60px;
+    height: 35px;
+    cursor: pointer;
+}
+
+#output{   
+    margin: 0 auto;
+    border: #bf9383 solid 5px;
+    border-radius: 25px 0 0 0;
+    margin-top: 30px;
+    width: 850px;
+    height: 500px;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: #f9f7f5;
+    
+}
+ 
+#ob{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: auto 10px;
+}
+
+#ob_c{
+    font-size: 23px;
+    margin-left: 30px;
+    font-family: "Noto Sans JP";
+}
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My record</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+</head>
+<body>
+    <h1>my Record.</h1>
+
+    <div id="fillout">
+        <div id="element1">
+            <p class="moji title">Title</p>
+            <select name="" id="title" size="1">
+               <option>Highlight</option>
+               <option>Restaurant</option>
+               <option>Cafe</option>
+               <option>Movie</option>
+               <option>Meet</option>
+               <option>Appointment </option>
+               <option>Memo</option>
+            </select>
+    
+        </div> 
+           
+        
+        <div id="element2">
+            <p class="moji content">Contents</p> 
+            <textarea name="" id="content" cols="60" rows="4"></textarea>
+            <!-- <button id="send">Send</button> -->
+            <input  id="send" type="button" value="Send">
+        </div>   
+
+    </div>
+    
+    <div id="output"> </div>
+ 
+  
+<!-- jQuery読み込み -->
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+<!--** 以下Firebase **-->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    databaseURL:"",
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+  
+</script> 
+
+<!-- js読み込み -->
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
